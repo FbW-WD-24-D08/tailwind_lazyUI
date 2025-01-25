@@ -8,12 +8,6 @@
             rel="stylesheet"
             type="text/css"
         />
-        <link
-            href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
-            rel="stylesheet"
-            type="text/css"
-        />
-        <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
         <script src="https://cdn.jsdelivr.net/npm/@luewell/prettier-plugin-tailwindcss@0.1.14/dist/index.min.js"></script>
         <title>Portfolio</title>
@@ -69,195 +63,222 @@
                     </div>
                 </section>
                 <!-- Skill Section -->
-                <section class="py-10 bg-black bg-opacity-50 text-white">
+                <section class="py-16 bg-black bg-opacity-50 text-white">
                     <div class="container mx-auto text-center">
-                        <h2 class="text-3xl font-bold mb-6 text-pink-400">
+                        <h2 class="text-4xl font-bold mb-6 text-pink-400">
                             Programming Skills
                         </h2>
                         <div
-                            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols3 gap-6"
+                            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12"
                         >
                             <!-- HTML Skills -->
+
+                            <div class="flex items-center">
+                                <img
+                                    class="w-10"
+                                    src="svg/html-5-svgrepo-com.svg"
+                                    alt="Logo-HTML"
+                                />
+                                <span class="font-medium">HTML</span>
+                                <progress
+                                    class="progress progress-warning w-56"
+                                    value="40"
+                                    max="100"
+                                ></progress>
+                            </div>
+                            <!-- CSS Skills -->
+                            <div class="flex items-center space-x-2">
+                                <img
+                                    class="w-10"
+                                    src="svg/css-3-svgrepo-com.svg"
+                                    alt="Logo-CSS"
+                                />
+                                <span class="font-medium">CSS</span>
+                                <progress
+                                    class="progress progress-info w-56"
+                                    value="10"
+                                    max="100"
+                                ></progress>
+                            </div>
+                            <!-- CSS Skills -->
+
+                            <div class="flex items-center space-x-2">
+                                <img
+                                    class="w-10"
+                                    src="svg/javascript-svgrepo-com.svg"
+                                    alt="Logo-Javascript"
+                                />
+                                <span class="font-medium">JavaScript</span>
+                                <progress
+                                    class="progress progress-warning w-56"
+                                    value="40"
+                                    max="100"
+                                ></progress>
+                            </div>
+                            <!-- SASS Skills -->
+                            <div class="flex items-center space-x-2">
+                                <img
+                                    class="w-10"
+                                    src="svg/sass-svgrepo-com.svg"
+                                    alt="Logo-HTML"
+                                />
+                                <span class="font-medium">SASS</span>
+                                <progress
+                                    class="progress progress-warning w-56"
+                                    value="40"
+                                    max="100"
+                                ></progress>
+                            </div>
+                            <!-- Tailwind Skills -->
+                            <div class="flex items-center space-x-2">
+                                <img
+                                    class="w-10"
+                                    src="svg/tailwind-svgrepo-com.svg"
+                                    alt="Logo-CSS"
+                                />
+                                <span class="font-medium">Tailwind</span>
+                                <progress
+                                    class="progress progress-info w-56"
+                                    value="10"
+                                    max="100"
+                                ></progress>
+                            </div>
+                            <!-- TypeScript Skills -->
+
+                            <div class="flex items-center space-x-2">
+                                <img
+                                    class="w-10"
+                                    src="svg/typescript-icon-svgrepo-com.svg"
+                                    alt="Logo-TypeScript"
+                                />
+                                <span class="font-medium">TypeScript</span>
+                                <progress
+                                    class="progress progress-info w-56"
+                                    value="10"
+                                    max="100"
+                                ></progress>
+                            </div>
+
+                            <!-- NodeJS Skills -->
+
+                            <div class="flex items-center space-x-2">
+                                <img
+                                    class="w-10"
+                                    src="svg/node-js-svgrepo-com.svg"
+                                    alt="Logo-CSS"
+                                />
+                                <span class="font-medium">NodeJS</span>
+                                <progress
+                                    class="progress progress-info w-56"
+                                    value="10"
+                                    max="100"
+                                ></progress>
+                            </div>
+
+                            <!-- React Skills -->
+                            <div class="flex items-center space-x-2">
+                                <img
+                                    class="w-10"
+                                    src="svg/react-svgrepo-com.svg"
+                                    alt="Logo-React"
+                                />
+                                <span class="font-medium">React</span>
+                                <progress
+                                    class="progress progress-warning w-56"
+                                    value="40"
+                                    max="100"
+                                ></progress>
+                            </div>
+                            <!-- Bash Skills -->
+
+                            <div class="flex items-center space-x-2">
+                                <img
+                                    class="w-10"
+                                    src="svg/bash-icon-svgrepo-com.svg"
+                                    alt="Logo-CSS"
+                                />
+                                <span class="font-medium">Bash</span>
+                                <progress
+                                    class="progress progress-info w-56"
+                                    value="10"
+                                    max="100"
+                                ></progress>
+                            </div>
+                            <!-- MySQL -->
+
+                            <div class="flex items-center space-x-2">
+                                <img
+                                    class="w-10"
+                                    src="svg/mysql-logo-svgrepo-com.svg"
+                                    alt="Logo-Bash"
+                                />
+                                <span class="font-medium">MySQL</span>
+                                <progress
+                                    class="progress progress-warning w-56"
+                                    value="40"
+                                    max="100"
+                                ></progress>
+                            </div>
+                            <!-- Angular Skills -->
+                            <div class="flex items-center space-x-2">
+                                <img
+                                    class="w-10"
+                                    src="svg/angular-icon-svgrepo-com.svg"
+                                    alt="Logo-HTML"
+                                />
+                                <span class="font-medium">Angular</span>
+                                <progress
+                                    class="progress progress-warning w-56"
+                                    value="40"
+                                    max="100"
+                                ></progress>
+                            </div>
+                            <!-- Python Skills -->
+
+                            <div class="flex items-center space-x-2">
+                                <img
+                                    class="w-10"
+                                    src="svg/python-svgrepo-com.svg"
+                                    alt="Logo-CSS"
+                                />
+                                <span class="font-medium">Monty Phython</span>
+                                <progress
+                                    class="progress progress-info w-56"
+                                    value="10"
+                                    max="100"
+                                ></progress>
+                            </div>
+
+                            <!-- Rust Skills -->
+                            <div class="flex items-center space-x-2">
+                                <div class="flex items-center space-x-2">
+                                    <img
+                                        class="w-10"
+                                        src="svg/rust-svgrepo-com.svg"
+                                        alt="Logo-CSS"
+                                    />
+                                    <span class="font-medium">Rust</span>
+                                    <progress
+                                        class="progress progress-info w-56"
+                                        value="10"
+                                        max="100"
+                                    ></progress>
+                                </div>
+                            </div>
+                            <!-- Java Skills -->
                             <div>
                                 <div class="flex items-center space-x-2">
                                     <img
                                         class="w-10"
-                                        src="svg/html-5-svgrepo-com.svg"
-                                        alt="Logo-HTML"
+                                        src="svg/java-4-logo-svgrepo-com.svg"
+                                        alt="Logo-CSS"
                                     />
-                                    <span class="font-medium">HTML</span>
+                                    <span class="font-medium">Java</span>
                                     <progress
-                                        class="progress progress-warning w-56"
-                                        value="40"
+                                        class="progress progress-info w-56"
+                                        value="10"
                                         max="100"
                                     ></progress>
-                                </div>
-                                <!-- CSS Skills -->
-                                <div>
-                                    <div class="flex items-center space-x-2">
-                                        <img
-                                            class="w-10"
-                                            src="svg/css-3-svgrepo-com.svg"
-                                            alt="Logo-CSS"
-                                        />
-                                        <span class="font-medium">CSS</span>
-                                        <progress
-                                            class="progress progress-info w-56"
-                                            value="10"
-                                            max="100"
-                                        ></progress>
-                                    </div>
-                                    <!-- CSS Skills -->
-                                </div>
-                                <div class="flex items-center space-x-2">
-                                    <img
-                                        class="w-10"
-                                        src="svg/javascript-svgrepo-com.svg"
-                                        alt="Logo-Javascript"
-                                    />
-                                    <span class="font-medium">JavaScript</span>
-                                    <progress
-                                        class="progress progress-warning w-56"
-                                        value="40"
-                                        max="100"
-                                    ></progress>
-                                </div>
-                                <!-- TypeScript Skills -->
-                                <div>
-                                    <div class="flex items-center space-x-2">
-                                        <img
-                                            class="w-10"
-                                            src="svg/typescript-icon-svgrepo-com.svg"
-                                            alt="Logo-TypeScript"
-                                        />
-                                        <span class="font-medium"
-                                            >TypeScript</span
-                                        >
-                                        <progress
-                                            class="progress progress-info w-56"
-                                            value="10"
-                                            max="100"
-                                        ></progress>
-                                    </div>
-                                </div>
-                                <!-- NodeJS Skills -->
-                                <div>
-                                    <div class="flex items-center space-x-2">
-                                        <img
-                                            class="w-10"
-                                            src="svg/node-js-svgrepo-com.svg"
-                                            alt="Logo-CSS"
-                                        />
-                                        <span class="font-medium">NodeJS</span>
-                                        <progress
-                                            class="progress progress-info w-56"
-                                            value="10"
-                                            max="100"
-                                        ></progress>
-                                    </div>
-                                </div>
-                                <!-- React Skills -->
-                                <div class="flex items-center space-x-2">
-                                    <img
-                                        class="w-10"
-                                        src="svg/react-svgrepo-com.svg"
-                                        alt="Logo-React"
-                                    />
-                                    <span class="font-medium">React</span>
-                                    <progress
-                                        class="progress progress-warning w-56"
-                                        value="40"
-                                        max="100"
-                                    ></progress>
-                                </div>
-                                <!-- Bash Skills -->
-                                <div>
-                                    <div class="flex items-center space-x-2">
-                                        <img
-                                            class="w-10"
-                                            src="svg/bash-icon-svgrepo-com.svg"
-                                            alt="Logo-CSS"
-                                        />
-                                        <span class="font-medium">Bash</span>
-                                        <progress
-                                            class="progress progress-info w-56"
-                                            value="10"
-                                            max="100"
-                                        ></progress>
-                                    </div>
-                                    <!-- MySQL -->
-                                </div>
-                                <div class="flex items-center space-x-2">
-                                    <img
-                                        class="w-10"
-                                        src="svg/mysql-logo-svgrepo-com.svg"
-                                        alt="Logo-Bash"
-                                    />
-                                    <span class="font-medium">MySQL</span>
-                                    <progress
-                                        class="progress progress-warning w-56"
-                                        value="40"
-                                        max="100"
-                                    ></progress>
-                                </div>
-
-                                <div class="flex items-center space-x-2">
-                                    <img
-                                        class="w-10"
-                                        src="svg/html-5-svgrepo-com.svg"
-                                        alt="Logo-HTML"
-                                    />
-                                    <span class="font-medium">HTML</span>
-                                    <progress
-                                        class="progress progress-warning w-56"
-                                        value="40"
-                                        max="100"
-                                    ></progress>
-                                </div>
-                                <!-- CSS Skills -->
-                                <div>
-                                    <div class="flex items-center space-x-2">
-                                        <img
-                                            class="w-10"
-                                            src="svg/css-3-svgrepo-com.svg"
-                                            alt="Logo-CSS"
-                                        />
-                                        <span class="font-medium">CSS</span>
-                                        <progress
-                                            class="progress progress-info w-56"
-                                            value="10"
-                                            max="100"
-                                        ></progress>
-                                    </div>
-                                </div>
-                                <div class="flex items-center space-x-2">
-                                    <img
-                                        class="w-10"
-                                        src="svg/html-5-svgrepo-com.svg"
-                                        alt="Logo-HTML"
-                                    />
-                                    <span class="font-medium">HTML</span>
-                                    <progress
-                                        class="progress progress-warning w-56"
-                                        value="40"
-                                        max="100"
-                                    ></progress>
-                                </div>
-                                <!-- CSS Skills -->
-                                <div>
-                                    <div class="flex items-center space-x-2">
-                                        <img
-                                            class="w-10"
-                                            src="svg/css-3-svgrepo-com.svg"
-                                            alt="Logo-CSS"
-                                        />
-                                        <span class="font-medium">CSS</span>
-                                        <progress
-                                            class="progress progress-info w-56"
-                                            value="10"
-                                            max="100"
-                                        ></progress>
-                                    </div>
                                 </div>
                             </div>
                         </div>
